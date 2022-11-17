@@ -1,0 +1,6 @@
+# 项目依赖包目录
+node_modules/
+
+# VuePress默认的临时目录和缓存目录
+.temp
+.cache

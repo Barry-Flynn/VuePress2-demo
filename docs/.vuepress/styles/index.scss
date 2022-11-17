@@ -1,0 +1,13 @@
+// 你可以在这里添加额外的样式，或者覆盖默认样式
+// https://v2.vuepress.vuejs.org/reference/default-theme/styles.html#style-file
+
+:root {
+  --c-brand: #646cff;
+  --c-brand-light: #747bff;
+}
+
+// 暗色模式
+html.dark {
+  --c-brand: #646cff;
+  --c-brand-light: #747bff;
+}

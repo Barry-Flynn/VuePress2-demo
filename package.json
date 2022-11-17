@@ -1,0 +1,17 @@
+{
+  "name": "bfui-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Barry-Flynn",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.53"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.53"
+  }
+}
