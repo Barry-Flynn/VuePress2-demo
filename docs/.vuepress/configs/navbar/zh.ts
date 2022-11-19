@@ -6,10 +6,6 @@ export const navbarZh: NavbarConfig = [
     link: '/zh/guide/',
   },
   {
-    text: '设计',
-    link: '/zh/design/',
-  },
-  {
     text: '工具函数',
     link: '/zh/functions/',
   },
