@@ -2,9 +2,9 @@
 
 ## What is it?（本项目是啥）
 
-It is an example of a static document site built based on [VuePress 2.x](https://github.com/vuepress/vuepress-next) to help you quickly obtain a document project with basic configuration, just run it.
+It is an example of a static document site built based on [VuePress 2.x](https://github.com/vuepress/vuepress-next) to help you quickly obtain a document project with basic configuration, just run it. You can use it to build product specifications, or as a blog.
 
-它是基于 VuePress2.x 搭建的一个静态文档站点示例，帮助你快速获得一个已经做好基本配置的文档项目，只需运行就可以。
+它是基于 VuePress2.x 搭建的一个静态文档站点示例，帮助你快速获得一个已经做好基本配置的文档项目，只需运行就可以。你可以用来搭建产品说明书，也可以用来作为博客等。
 
 
 ---

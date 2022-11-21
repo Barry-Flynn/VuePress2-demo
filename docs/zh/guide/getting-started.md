@@ -4,9 +4,11 @@
 
 ## 1. 安装
 
-### 通过 npm 或 yarn 安装
+### 使用包管理器
 
-我们推荐使用 npm 或 yarn 的方式进行开发，不仅可在开发环境轻松调试，也可放心地在生产环境打包部署使用，享受整个生态圈和工具链带来的诸多好处。
+我们推荐使用包管理器的方式进行开发，不仅可在开发环境轻松调试，也可放心地在生产环境打包部署使用，享受整个生态圈和工具链带来的诸多好处。
+
+选择一个你喜欢的包管理器：
 
 <CodeGroup>
   <CodeGroupItem title="YARN">
@@ -26,42 +28,22 @@ npm install @barry-flynn/bfui
   </CodeGroupItem>
 </CodeGroup>
 
-### 通过 CDN 安装
+### 浏览器直接引入
 
-目前还可以通过以下方式获取到最新版本的资源，在页面上引入 js 和 css 文件即可开始使用。
+直接通过浏览器的 HTML 标签导入 BFUI，然后就可以使用全局变量 `BFUI` 了。
 
-通过 [unpkg.com/@barry-flynn/bfui](https://unpkg.com/browse/@barry-flynn/bfui@1.0.0/) 获取：
+根据不同的 CDN 提供商有不同的引入方式， 我们在这里以 [unpkg](https://unpkg.com/) 和 [jsDelivr](https://jsdelivr.com/) 举例。 你也可以使用其它的 CDN 供应商。
+
+通过 [unpkg.com/@barry-flynn/bfui](https://unpkg.com/browse/@barry-flynn/bfui/) 获取：
 
 ```html:no-line-numbers
-<!-- 引入样式 -->
-<link rel="stylesheet" href="https://unpkg.com/@barry-flynn/bfui@1.0.0/BFUI.min.css" />
-
-<!-- 引入脚本 -->
-<script src="https://unpkg.com/vue@2.7.14/dist/vue.js"></script>
-<script src="https://unpkg.com/@barry-flynn/bfui@1.0.0/BFUI.min.js"></script>
-
-...
-
-<script>
-  Vue.use(BFUI);
-</script>
+Blablabla...
 ```
 
 通过 [jsdelivr.com/@barry-flynn/bfui](https://cdn.jsdelivr.net/npm/@barry-flynn/bfui/) 获取：
 
 ```html:no-line-numbers
-<!-- 引入样式 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@barry-flynn/bfui@1.0.0/BFUI.min.css" />
-
-<!-- 引入脚本 -->
-<script src="https://unpkg.com/vue@2.7.14/dist/vue.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@barry-flynn/bfui@1.0.0/BFUI.min.js"></script>
-
-...
-
-<script>
-  Vue.use(BFUI);
-</script>
+Blablabla...
 ```
 
 

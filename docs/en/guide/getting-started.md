@@ -4,9 +4,11 @@
 
 ## 1. Install
 
-### npm or yarn
+### Using packaging manager
 
-We recommend using npm or yarn to install, it not only makes development easier, but also allow you to take advantage of the rich ecosystem of Javascript packages and tooling.
+We recommend using the package manager for development, it not only makes development easier, but also allow you to take advantage of the rich ecosystem of Javascript packages and tooling.
+
+Choose a package manager you like:
 
 <CodeGroup>
   <CodeGroupItem title="YARN">
@@ -26,42 +28,22 @@ npm install @barry-flynn/bfui
   </CodeGroupItem>
 </CodeGroup>
 
-### CDN
+### Import in Browser
 
-At present, the latest version of resources can also be obtained through the following methods. You can start to use it by introducing js and css files on the page.
+Import BFUI through browser HTML tags directly, and use global variable `BFUI`.
+
+According to different CDN providers, there are different introduction methods. Here we use [unpkg](https://unpkg.com/) and [jsDelivr](https://jsdelivr.com/) as example. You can also use other CDN providers.
 
 Obtained through [unpkg.com/@barry-flynn/bfui](https://unpkg.com/browse/@barry-flynn/bfui@1.0.0/):
 
 ```html:no-line-numbers
-<!-- import CSS -->
-<link rel="stylesheet" href="https://unpkg.com/@barry-flynn/bfui@1.0.0/BFUI.min.css" />
-
-<!-- import JavaScript -->
-<script src="https://unpkg.com/vue@2.7.14/dist/vue.js"></script>
-<script src="https://unpkg.com/@barry-flynn/bfui@1.0.0/BFUI.min.js"></script>
-
-...
-
-<script>
-  Vue.use(BFUI);
-</script>
+Blablabla...
 ```
 
 Obtained through [jsdelivr.com/@barry-flynn/bfui](https://cdn.jsdelivr.net/npm/@barry-flynn/bfui/):
 
 ```html:no-line-numbers
-<!-- import CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@barry-flynn/bfui@1.0.0/BFUI.min.css" />
-
-<!-- import JavaScript -->
-<script src="https://unpkg.com/vue@2.7.14/dist/vue.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@barry-flynn/bfui@1.0.0/BFUI.min.js"></script>
-
-...
-
-<script>
-  Vue.use(BFUI);
-</script>
+Blablabla...
 ```
 
 

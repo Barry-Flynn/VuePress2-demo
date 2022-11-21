@@ -1,5 +1,9 @@
 # 项目简介
 
+> 本文档所有内容仅作为 [VuePress2-demo](https://github.com/Barry-Flynn/VuePress2-demo) 的使用演示，BFUI是我的一个开源项目
+> 
+> 所有涉及BFUI的内容、图片或链接请参考 [VuePress 2.x](https://github.com/vuepress/vuepress-next) 配置项自行替换
+
 ![BFUI](/images/BFUI.png)
 
 ## 什么是 BFUI？
@@ -10,10 +14,6 @@ BFUI 目前定位是一个用来简化部分前端开发工作的工具，开发
 
 诚然，它目前可能仍是简陋的，在实际开发中它提供的帮助也非常有限。但是，罗马不是一天建成的，每一个新奇的想法从诞生之初到逐步成熟落地都会有一个成长的过程。很荣幸，你可能会与我共同见证它的成长，或者如果感兴趣的话，你可以参与进BFUI的成长历程中，这绝对会是一场有趣的体验。Blablabla...
 
-- QQ 群组：[534984250](https://qm.qq.com/cgi-bin/qm/qr?k=afn2P002RJm0JkEj3Egsp738KjW_LtKC&authKey=hsFMT4Lip8FB0YMckCWs5GFXQxfb0JDiu1)
-- 交流社区：[https://support.qq.com/products/417041/](https://support.qq.com/products/417041/)
-- BFUI 仓库：[https://github.com/Barry-Flynn/BFUI](https://github.com/Barry-Flynn/BFUI)
-- BFUI-docs 文档仓库：[https://github.com/Barry-Flynn/BFUI-docs](https://github.com/Barry-Flynn/BFUI-docs)
 
 ## 与其他项目有何不同？
 
